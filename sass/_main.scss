@@ -1,0 +1,100 @@
+// index
+h2{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-hija{
+    border: solid 2px skyblue;
+    margin: 10px;
+    background-color: skyblue;
+flex: 1;
+border-radius: 6px;
+box-shadow: 10px 10px 10px 10px gray;
+
+
+}
+
+.img-index{
+    width: 300px;
+    margin-left: 55px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;}
+
+    // contacto
+    form {
+        width: 100%;
+      }
+      
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        background-color: skyblue ;
+        border: solid black 2px;
+      }
+      
+      label {
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+      }
+      
+      input[type="submit"] {
+        background-color: skyblue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: white;
+        color: black;
+      }
+
+    //   historia
+    .articulo{
+        display: flex;
+        background-color: skyblue;
+        margin-top: 10px;
+    flex-wrap: wrap;
+    }
+    
+    .img-historia{
+    width: 500px;
+    margin: 20px;
+    margin-left: 413px;
+    border-radius: 4px;
+    }
+
+    // equipo sub 20
+
+    article{
+        display: flex;
+        background-color: skyblue;
+        margin-top: 10px;
+    }
+     
+    .img-20{
+        width: 350px;
+    margin: 20px;
+    border-radius: 4px;
+    
+    
+    }
+
+    // idolos argentinos
+
